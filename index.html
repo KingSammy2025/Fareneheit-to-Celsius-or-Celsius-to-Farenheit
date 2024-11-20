@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farenheit to Celsius Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Farenheit to Celsius Convertor</h1>
+    <img
+      id="the-img"
+      src="images/Farenheit to Celsius formula image.jpg"
+      alt="Farenheit to Celsius Images"
+      width="300px"
+      height="100px"
+    />
+
+    <h2>How to Convert Farenheit to Celsius or Celsius to Farenheit</h2>
+
+    <p>
+      The formula for converting Farenheit to Celsius is: (F° - 32) ** 5/9 or
+      you can
+      <a
+        id="the-hyperlink"
+        href="https://thirdspacelearning.com/gcse-maths/geometry-and-measure/area-of-a-trapezium/
+
+        "
+        target="_blank"
+        >click on this link to find the formula.
+      </a>
+      The formula for converting Celsius to Farenheit is: (32°F - 32) ** 5/9 =
+      0°C or you can
+      <a
+        href="https://www.google.com/search?q=formula+for+converting+celsius+to+fahrenheit&sca_esv=dfd2af4a0faad991&source=hp&ei=2k8-Z-G6IOXF0PEP7tfmWA&iflsig=AL9hbdgAAAAAZz5d6gzHHe3sc-htcg-0CLJVdzXZbOl1&oq=formula+for+convertin&gs_lp=Egdnd3Mtd2l6GgIYAiIVZm9ybXVsYSBmb3IgY29udmVydGluKgIIADIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI7zJQAFjNI3AAeACQAQCYAaMBoAHOEKoBBTExLjEwuAEByAEA-AEBmAIVoAKCEcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMY0QMYxwHCAhEQLhiABBixAxjRAxiDARjHAcICCBAAGIAEGLEDwgILEC4YgAQYxwEYrwHCAg4QLhiABBixAxiDARjUAsICBRAuGIAEwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIsDmAMAkgcFMTAuMTGgB4WmAQ&sclient=gws-wiz&safe=active&ssui=on"
+        target="_blank"
+        >click on this link to find the formula</a
+      >
+    </p>
+    <br />
+
+    <hr />
+
+    <h2>Choice</h2>
+    <label for="Which">Farenheit to Celsius or Celsius to Farenheit</label>
+    <select name="Which" id="which-of-them">
+      <option value="C">Farenheit to Celsius</option>
+      <option value="F">Celsius to Farenheit</option>
+    </select>
+    <hr />
+
+    <h2>Input</h2>
+
+    <p>
+      Temperature in Farenheit or Celsius :
+      <input id="Farenheit" type="number" />
+    </p>
+    <button id="btn">CONVERT</button>
+    <br />
+    <hr />
+
+    <h2>Output</h2>
+    <p>
+      Temperature in Farenheit or Celsius: <span id="result"> = </span
+      ><span id="pic-container"></span>
+    </p>
+  </body>
+</html>
